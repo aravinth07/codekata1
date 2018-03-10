@@ -14,8 +14,8 @@ if(number.isnumeric()):
     print("u entered a number")
     number=int(number)
     if number%2 ==0 and number !=0:
-        print("even number")
+        print("even")
     else:
-        print("odd number")
+        print("odd")
 else:
-    print("invalid number")
+    print("invalid")

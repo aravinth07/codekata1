@@ -1,4 +1,3 @@
-print("enter three numbers")
 n1=int(input())
 n2=int(input())
 n3=int(input())
@@ -9,4 +8,4 @@ elif (n2 >= n1) and (n2 >= n3):
 else:
    largest = n3
 
-print("The largest number is",largest)
+print(largest)

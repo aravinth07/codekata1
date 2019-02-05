@@ -1,4 +1,3 @@
-print("enter the number")
 n = int(input())
 if n < 0:
    print("Enter a positive number")
@@ -7,4 +6,4 @@ else:
    while(n > 0):
        sum += n
        n -= 1
-   print("the sum is",sum)
+   print(sum)

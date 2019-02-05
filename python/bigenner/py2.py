@@ -8,7 +8,7 @@
 # Copyright:   (c) rgcet 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-a=int(input("enter number"))
+a=int(input())
 
 if a==0:
     print("zero")

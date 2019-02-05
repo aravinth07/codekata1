@@ -8,10 +8,8 @@
 # Copyright:   (c) rgcet 2018
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-import math
-number=raw_input()
-if(number.isnumeric()):
-    number=int(number)
+number=int(input())
+if(number>0):   
     if number%2 ==0 and number !=0:
         print("even")
     else:

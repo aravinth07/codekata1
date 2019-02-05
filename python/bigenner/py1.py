@@ -11,7 +11,6 @@
 import math
 number=raw_input()
 if(number.isnumeric()):
-    print("u entered a number")
     number=int(number)
     if number%2 ==0 and number !=0:
         print("even")

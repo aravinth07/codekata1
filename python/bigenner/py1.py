@@ -9,10 +9,9 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 number=int(input())
-if(number>0):   
-    if number%2 ==0 and number !=0:
+if number%2 ==0:
         print("even")
-    else:
+elif number%2 ==1:
         print("odd")
 else:
     print("invalid")

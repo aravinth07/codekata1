@@ -6,6 +6,6 @@ while(n>0):
     res=res*10+dig
     n=n//10
 if(temp==res):
-    print("YES")
+    print("yes")
 else:
-    print("NO")
+    print("no")

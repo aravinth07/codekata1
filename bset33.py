@@ -1,3 +1,3 @@
 n=int(input())
-l=list(input())
-print(min(l))
+lt1=list(input())
+print(min(lt1))

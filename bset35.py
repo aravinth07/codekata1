@@ -1,5 +1,5 @@
 n = int(input())
 a=list(input().split())
 a.sort()
-m=int(n/2)
-print(a[m])
+mid=int(n/2)
+print(a[mid])

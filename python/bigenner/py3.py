@@ -1,17 +1,9 @@
-#-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
-# Author:      rgcet
-#
-# Created:     10/03/2018
-# Copyright:   (c) rgcet 2018
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
-
-list=['a','e','i,','o','u']
-input=raw_input()
-if input in list:
-    print("vowel")
+a=input()
+li=['a','e','i','o','u','A','E','I','O','U']
+if ord(a)>96 and ord(a)<123:
+    if a in li:
+        print("Vowel")
+    else:
+        print("Constant")
 else:
-    print("consonant")
+    print("invalid")

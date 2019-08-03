@@ -4,6 +4,6 @@ if ord(a)>96 and ord(a)<123:
     if a in li:
         print("Vowel")
     else:
-        print("Consotant")
+        print("Consonant")
 else:
     print("invalid")

@@ -1,3 +1,4 @@
 num=int(input())
-for i in range(num):
+while(num>0):
     print("Hello")
+    num-=1

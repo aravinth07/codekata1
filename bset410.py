@@ -1,2 +1,2 @@
-a=list(input().split())
-print(len(a))
+k=list(input().split())
+print(len(k))

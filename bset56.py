@@ -1,3 +1,4 @@
 n=int(input())
-m=n+1
+for i in range(1):
+    m=n+1
 print(m)

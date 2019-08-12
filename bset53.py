@@ -1,2 +1,5 @@
-x1,y1=input().split()
-print(x1+y1)
+x,y=input().split()
+a=list(x)
+b=list(y)
+print(*a,sep="",end="")
+print(*b,sep="")
